@@ -11,7 +11,7 @@ canvas.height = 600;
 
 // 🏀 Configuración de la bola
 let ball = {
-  x: Math.random() * 380 + 10, // Posición aleatoria inicial (evita los bordes)
+  x: Math.random() * 400 + 10, // Posición aleatoria inicial (evita los bordes)
   y: 0,
   radius: 15,
   speed: 3,
