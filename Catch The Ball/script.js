@@ -6,21 +6,26 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 // 🔧 Ajustes del lienzo
-canvas.width = 400;
+canvas.width = 1000; // Cambio Armando (width a 1000)
 canvas.height = 600;
 
 // 🏀 Configuración de la bola
 let ball = {
   x: Math.random() * 400 + 10, // Posición aleatoria inicial (evita los bordes)
   y: 0,
+<<<<<<< HEAD
+  radius: 18,
+  speed: 3,
+=======
   radius: 15,
   speed: 7, // velocidad mas rapida (mariana)
+>>>>>>> 3bfca03fb38965aa2bcad909751708a9f8b71c81
   color: "red",
 };
 
 // 🧍 Control del jugador (la barra)
 let catcher = {
-  width: 80,
+  width: 83,
   height: 10,
   x: canvas.width / 2 - 40, // Centrado al inicio
   y: canvas.height - 40,
