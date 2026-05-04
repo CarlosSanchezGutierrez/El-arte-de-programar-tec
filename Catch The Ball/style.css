@@ -8,6 +8,6 @@ body {
 }
 
 canvas {
-  border: 2px solid #fff;
+  border: 2px solid #FC4B08; /* Cambie el color del border */
   background: #000;
 }
