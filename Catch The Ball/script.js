@@ -6,7 +6,7 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 // 🔧 Ajustes del lienzo
-canvas.width = 400;
+canvas.width = 1000; // Cambio Armando (width a 1000)
 canvas.height = 600;
 
 // 🏀 Configuración de la bola
